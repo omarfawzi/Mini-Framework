@@ -1,7 +1,7 @@
 <?php
 return [
     'views'    => [
-        'path' => './resources/views',
+        'path' => '../resources/views',
     ],
     'database' => [
         'mysql' => [
