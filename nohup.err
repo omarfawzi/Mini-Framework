@@ -1,0 +1,61 @@
+The MAILCATCHER_CONTAINER_NAME variable is not set. Defaulting to a blank string.
+Starting ROCKSTAR_REDIS_1 ... 
+Starting ROCKSTAR_MYSQL_1 ... 
+Starting ROCKSTAR_MONGO_1 ... 
+Starting ROCKSTAR_RABBITMQ_1 ... 
+Starting ROCKSTAR__1         ... 
+[3A[2KStarting ROCKSTAR_MONGO_1    ... [32mdone[0m[3B[4A[2KStarting ROCKSTAR_MYSQL_1    ... [32mdone[0m[4B[5A[2KStarting ROCKSTAR_REDIS_1    ... [32mdone[0m[5BStarting ROCKSTAR_PHP_1      ... 
+[3A[2KStarting ROCKSTAR_RABBITMQ_1 ... [32mdone[0m[3B[2A[2KStarting ROCKSTAR__1         ... [32mdone[0m[2B[1A[2KStarting ROCKSTAR_PHP_1      ... [32mdone[0m[1BStarting ROCKSTAR_AIRFLOW_1  ... 
+[1A[2KStarting ROCKSTAR_AIRFLOW_1  ... [32mdone[0m[1BStarting ROCKSTAR_NGINX_1    ... 
+[1A[2KStarting ROCKSTAR_NGINX_1    ... [32mdone[0m[1BStarting dancefloor_php_1_358b6f2121b9 ... 
+[1A[2KStarting dancefloor_php_1_358b6f2121b9 ... [32mdone[0m[1BStarting dancefloor_nginx_1_7be9eb2a7fc8 ... 
+[1A[2KStarting dancefloor_nginx_1_7be9eb2a7fc8 ... [32mdone[0m[1BOpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.intellij.ide.ClassUtilCore to field sun.net.www.protocol.jar.JarFileFactory.fileCache
+WARNING: Please consider reporting this to the maintainers of com.intellij.ide.ClassUtilCore
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2019-08-20 11:29:24,100 [  10560]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: VibrantInk from plugin: com.intellij.database 
+2019-08-20 11:29:24,100 [  10560]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: WarmNeon from plugin: com.intellij.database 
+2019-08-20 11:29:24,100 [  10560]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: High сontrast from plugin: com.intellij.database 
+2019-08-20 11:34:41,010 [ 327470]   WARN - tartup.impl.StartupManagerImpl - /home/salama/Documents/framework/.idea 
+java.io.FileNotFoundException: /home/salama/Documents/framework/.idea
+	at com.intellij.openapi.util.io.FileUtil.isFileSystemCaseSensitive(FileUtil.java:1467)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.checkFsSanity(StartupManagerImpl.java:329)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivities(StartupManagerImpl.java:237)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.lambda$null$6(ProjectManagerImpl.java:411)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:312)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.doRun(LaterInvocator.java:433)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.runNextEvent(LaterInvocator.java:416)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:399)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:873)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:822)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:461)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:704)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:460)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2019-08-20 13:00:39,578 [5486038]   WARN - ess.util.ProgressIndicatorBase - This progress indicator is indeterminate, this may lead to visual inconsistency. Please call setIndeterminate(false) before you start progress.
+git4idea.commands.GitStandardProgressAnalyzer$1.onLineAvailable(GitStandardProgressAnalyzer.java:45) 
+2019-08-20 13:07:43,253 [5909713]   WARN - ess.util.ProgressIndicatorBase - This progress indicator is indeterminate, this may lead to visual inconsistency. Please call setIndeterminate(false) before you start progress.
+git4idea.commands.GitStandardProgressAnalyzer$1.onLineAvailable(GitStandardProgressAnalyzer.java:45) 
+2019-08-20 13:51:27,253 [8533713]   WARN - ess.util.ProgressIndicatorBase - This progress indicator is indeterminate, this may lead to visual inconsistency. Please call setIndeterminate(false) before you start progress.
+git4idea.commands.GitStandardProgressAnalyzer$1.onLineAvailable(GitStandardProgressAnalyzer.java:45) 
+2019-08-20 14:20:09,852 [10256312]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[22;0;0t
+bytes read                    :ESC[ 
+2019-08-20 14:20:09,853 [10256313]  ERROR - jediterm.terminal.TerminalMode - Mode InsertMode is not implemented, setting to false 
+2019-08-20 14:20:11,339 [10257799]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[23;0;0t
+bytes read                    :ESC[ 
