@@ -1,6 +1,6 @@
 # Mini-framework
 
-A Mini-Framework implemented built over docker .
+A Mini MVC Framework implemented and built over docker .
 
 # Build Image
 
