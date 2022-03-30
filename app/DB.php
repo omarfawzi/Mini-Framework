@@ -17,27 +17,10 @@ class DB
     private function __construct() {
     }
 
-    public static function getInstance() {
-        if (isset(self::$instance)){
-            return self::$instance;
-        }
-        else {
-            return new DB();
-        }
-    }
-
-    /**
-     * @return PDO
-     */
-    public function getConnection()
-    {
-        return $this->connection ;
-    }
-
     /**
      * @throws Exception
      */
-    public function init()
+    private function init()
     {
         $host             = config('database', 'mysql', 'host');
         $username         = config('database', 'mysql', 'username');
@@ -49,6 +32,25 @@ class DB
             $this->connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         } catch (PDOException $e) {
             throw new Exception($e->getMessage(),$e->getCode());
+        }
+    }
+    
+    /**
+     * @return PDO
+     */
+    public function getConnection()
+    {
+        return $this->connection ;
+    }
+    
+    public static function getInstance() {
+        if (isset(self::$instance)){
+            return self::$instance;
+        }
+        else {
+            $db = new DB();
+            $db->init();
+            return $db;
         }
     }
 }
